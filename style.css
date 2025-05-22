@@ -1,0 +1,202 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f4f6fa, #dfe9f3);
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+nav a {
+  color: #1a1a1a;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+/* SECCIONES */
+main section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #007acc;
+}
+
+.proyecto {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* HABILIDADES */
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+ul li {
+  background: #007acc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* BOTÓN */
+button {
+  margin-top: 1.5rem;
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* ANIMACIONES FADE-IN */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.inicio-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.inicio-contenido .texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+.inicio-contenido .imagen {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.inicio-contenido .imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.proyectos-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.proyectos-contenido .imagen {
+  flex: 1;
+  min-width: 260px;
+  max-width: 380px;
+  text-align: center;
+}
+
+.proyectos-contenido .imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.lista-proyectos {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.github-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.github-link a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.3s ease;
+}
+
+.github-link a:hover {
+  color: #005fa3;
+}
+
+.github-link i {
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+.btn-cv {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+
+.btn-cv:hover {
+  background: #005fa3;
+}
+
+.btn-cv i {
+  margin-right: 8px;
+}
+
